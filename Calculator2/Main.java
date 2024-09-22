@@ -21,7 +21,7 @@ public class Main {
 
         Calculator calc = new Calculator(num1, num2);
 
-        System.out.println(calc.add());
+        calc.calculate(operator);
 
     }
 }
