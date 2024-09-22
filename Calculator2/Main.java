@@ -25,12 +25,12 @@ public class Main {
         boolean running = true;
 
         while (running) {
+            System.out.println("Please enter the next operator or exit with 'x': ");
+            operator = scan.nextLine();
+
             if ("x".equals(operator)) {
                 running = false;
             } else {
-                System.out.println("Please enter the next operator or exit with 'x': ");
-                operator = scan.nextLine();
-
                 System.out.println("Please enter another number: ");
                 calc.setNum2(scan.nextInt());
                 scan.nextLine();
