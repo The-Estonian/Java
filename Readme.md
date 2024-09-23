@@ -1,6 +1,6 @@
 # Learning Java
 
-## Simple Java proects and OOP
+## Simple Java projects and OOP
 
 Learning Java with simple projects etc.
 
