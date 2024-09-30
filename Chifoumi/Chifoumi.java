@@ -1,4 +1,3 @@
-package Chifoumi;
 public class Chifoumi {
     public static ChifoumiAction getActionBeatenBy(ChifoumiAction chifoumiAction) {
         switch (chifoumiAction) {
