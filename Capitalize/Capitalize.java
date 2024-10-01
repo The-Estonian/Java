@@ -35,13 +35,4 @@ public class Capitalize {
 
         return capitalized.toString().trim();
     }
-
-    public static void main(String[] args) throws IOException {
-        if (args.length < 2) {
-            System.out.println("Please provide input and output file names as arguments.");
-            return;
-        }
-
-        capitalize(args);
-    }
 }
