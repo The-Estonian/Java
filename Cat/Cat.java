@@ -34,7 +34,7 @@ public class Cat {
 
     public static boolean isBinaryFile(String filePath) throws IOException {
         byte[] fileBytes = Files.readAllBytes(Paths.get(filePath));
-        for (int i = 0; i < Math.min(fileBytes.length, 1024); i++) { // Check the first 1024 bytes
+        for (int i = 0; i < Math.min(fileBytes.length, 1024); i++) {
             byte b = fileBytes[i];
             if (b < 0x20 && b != 0x09 && b != 0x0A && b != 0x0D) {
                 return true;
