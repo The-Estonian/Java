@@ -19,8 +19,8 @@ public class UnitConverter {
                 return String.format("%.2f", (value - 32) * 5.0 / 9.0);
             case "kilometers":
                 return String.format("%.2f", (value / 1.609));
-            case "miles":
-                return String.format("%.2f", (value * 1.609));
+            case "pounds":
+                return String.format("%.2f", (value * 0.4535));
             default:
                 return "ERROR";
         }
